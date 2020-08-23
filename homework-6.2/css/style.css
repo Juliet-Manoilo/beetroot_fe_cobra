@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  src: url("../assets/9412.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+header,
+main {
+  background-color: #4a4f56;
+  color: #eb7e7f;
+  border-left: 15px solid white;
+  border-right: 15px solid white;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+header::before {
+  content: "";
+  border: 10px solid white;
+  display: block;
+  margin-bottom: 10px;
+}
+
+div {
+  padding-bottom: 15px;
+}
+
+main {
+  background-color: #3b3f45;
+  padding-top: 30px;
+  font-size: 24px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 650px;
+  padding-left: 10px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  display: block;
+  width: 650px;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #88839e;
+  cursor: pointer;
+  border-top: 3px solid #88839e;
+  border-bottom: 3px solid #88839e;
+}
+
+li:nth-child(2n) {
+  background-color: #7a7593;
+  border-top: 3px solid #7a7593;
+  border-bottom: 3px solid #7a7593;
+}
+
+fieldset[form] {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main::after {
+  content: "";
+  border: 10px solid white;
+  display: block;
+}
+ul {
+  margin-bottom: 30px;
+}
+
+ul + button {
+  background-color: #4a4f56;
+  display: block;
+  width: 650px;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  color: #eb7e7f;
+  margin-bottom: 60px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+}
+
+li:hover {
+  background-color: #625e77;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+li:active {
+  background-color: #eb7e7f;
+}
