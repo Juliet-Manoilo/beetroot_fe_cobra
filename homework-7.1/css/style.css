@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+header {
+  padding-top: 145px;
+  text-align: center;
+}
+
+.first {
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #898f99;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+h1 {
+  color: #0ec8cb;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.description {
+  width: 513px;
+  font-family: "PT sans", sans-serif;
+  color: #999999;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 108px;
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+main {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin: 0;
+  font-size: 0;
+}
+
+li {
+  display: inline-block;
+
+  list-style: none;
+  background-color: #f7f7f7;
+  border: 1px solid #ececec;
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 14px;
+  width: 230px;
+  height: 420px;
+  padding-top: 55px;
+  cursor: pointer;
+}
+
+li:nth-child(1, 2, 3) {
+  border-right: none;
+}
+
+li:nth-child(2) {
+  padding-top: 41.5px;
+}
+
+svg {
+  margin-bottom: 55px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  margin: 0 0 35px 0;
+}
+
+.Anchor {
+  background-color: rgb(27, 27, 27);
+  position: absolute;
+  left: 255px;
+  top: 473px;
+  width: 66px;
+  height: 66px;
+  z-index: 9;
+}
+
+.text {
+  font-family: "PT sans", sans-serif;
+  font-size: 14px;
+  color: #777777;
+  padding-left: 36px;
+  margin-right: 29px;
+  text-align: center;
+}
+
+.diamond {
+  margin-bottom: 43px;
+}
+
+.glasses {
+}
+
+li:hover {
+  background-color: #0ec8cb;
+  color: white;}
+
+  li:hover svg path,
+li:hover{
+  fill:white;}
+
+  li:hover p,
+li:hover{
+  color:white;
+ 
