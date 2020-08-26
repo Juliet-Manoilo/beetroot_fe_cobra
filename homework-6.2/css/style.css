@@ -51,7 +51,6 @@ label {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 650px;
-  padding-left: 10px;
 }
 
 li {
@@ -115,4 +114,39 @@ li:hover {
 
 li:active {
   background-color: #eb7e7f;
+}
+
+input {
+  display: none;
+  cursor: pointer;
+}
+
+.text {
+  padding-left: 30px;
+}
+
+span {
+  vertical-align: center;
+}
+
+.text:before {
+  content: " ";
+  color: #000;
+  display: inline-block;
+  font: 20px/30px Arial;
+  margin-right: 15px;
+  position: relative;
+  text-align: center;
+  text-indent: 0px;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border: 1px solid grey;
+  border-image: initial;
+  vertical-align: middle;
+}
+
+input:checked + .text:before {
+  content: "✔";
+  font-size: 20px;
 }
