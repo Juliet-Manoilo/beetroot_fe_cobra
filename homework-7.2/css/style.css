@@ -25,6 +25,7 @@ footer {
 header::before {
   content: "";
   border: 10px solid #2b81ac;
+  color: #2b81ac;
   display: block;
   margin-bottom: 10px;
 }
