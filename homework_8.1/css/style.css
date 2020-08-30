@@ -27,9 +27,9 @@ li {
   display: flex;
   border-radius: 1px;
   box-shadow: 1px 1px 1px 1px #d3b969;
-  margin: 15px;
+  margin: 20px;
   padding: 30px 10px;
-  width: 32%;
+  width: 30%;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
