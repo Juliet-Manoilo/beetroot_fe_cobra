@@ -1,0 +1,83 @@
+@import url("https: ; //fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  transition: all 0.1s ease-in;
+}
+
+section {
+  background-color: #fdde7e;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  background-color: #fff;
+  display: flex;
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px 1px #d3b969;
+  margin: 15px;
+  padding: 30px 10px;
+  width: 32%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+h1 {
+  color: #02995b;
+  margin-bottom: 70px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.cup {
+  margin-bottom: 20px;
+  position: relative;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.smoke {
+  position: absolute;
+  top: -69%;
+  left: 29%;
+}
+
+h2 {
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.text {
+  text-align: center;
+  color: #858585;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.bean {
+  position: absolute;
+  top: 15%;
+  left: 33%;
+}
+
+li:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
