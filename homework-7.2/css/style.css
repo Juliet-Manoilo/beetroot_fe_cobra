@@ -10,10 +10,17 @@
   transition: all 0.1s ease-in;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 header,
 main,
 footer {
   background-color: #3399cc;
+  block-size: cover;
   color: white;
   border-left: 15px solid #2b81ac;
   border-right: 15px solid #2b81ac;
@@ -36,13 +43,19 @@ footer::after {
   display: block;
 }
 
-main,
-footer {
-  padding-top: 10px;
+header {
+  height: 10%;
 }
 
+main {
+  padding-top: 20px;
+  height: 90%;
+}
+h1 {
+  display: inline-block;
+}
 p {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   padding-top: 10px;
 }
 
@@ -57,6 +70,8 @@ ul {
   font-size: 0;
   border: 1px solid white;
   margin-right: 0;
+  margin-bottom: 30px;
+  background-color: #fff;
 }
 li {
   display: inline-block;
@@ -136,10 +151,10 @@ i {
   margin-left: 8px;
   color: white;
 }
+ul:hover li {
+  opacity: 0.7;
+}
 
 ul:hover li:hover {
   opacity: 1;
-}
-ul:hover li {
-  opacity: 0.4;
 }
