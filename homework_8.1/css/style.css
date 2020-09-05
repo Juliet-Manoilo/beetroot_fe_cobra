@@ -3,11 +3,11 @@
 * {
   margin: 0;
   padding: 0;
-
   transition: all 0.1s ease-in;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -18,13 +18,13 @@ section {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  min-height: 99%;
+  min-height: 100%;
 }
 
 ul {
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 60%;
   height: 90%;
   max-height: 80%;
   padding-top: 10%;
@@ -36,58 +36,59 @@ li {
   display: flex;
   border-radius: 1px;
   box-shadow: 1px 1px 1px 1px #d3b969;
-  margin: 20px;
-  padding: 30px 10px;
-  width: 28%;
+  margin: 11px;
+  padding: 27px 10px;
+  width: 33%;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
   align-items: center;
   cursor: pointer;
-  max-height: 80%;
+  height: 80%;
+  flex-grow: 1;
 }
 
 h1 {
   color: #02995b;
-  margin-bottom: 70px;
-  font-size: 40px;
-  font-weight: 400;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .cup {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   position: relative;
   justify-content: center;
-  padding-left: 10px;
+  padding-left: 23px;
 }
 
 .smoke {
   position: absolute;
-  top: -69%;
-  left: 29%;
+  top: -50%;
+  left: 36%;
 }
 
 h2 {
   color: #333333;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .text {
   text-align: center;
   color: #858585;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 23%;
+  margin-right: 23%;
 }
 
 .bean {
   position: absolute;
   top: 15%;
-  left: 33%;
+  left: 40%;
 }
 
 li:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
+  -webkit-transform: scaley(1.1);
+  -ms-transform: scaley(1.1);
+  transform: scaley(1.1);
 }
