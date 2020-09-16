@@ -1,4 +1,4 @@
-@import url("https: ; //fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -14,7 +14,7 @@ body {
 
 section {
   background-color: #fdde7e;
-  font-family: "Lato", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -24,9 +24,9 @@ section {
 ul {
   display: flex;
   justify-content: space-around;
-  width: 60%;
-  height: 90%;
-  max-height: 80%;
+  width: 76%;
+  height: 91%;
+  max-height: 90%;
   padding-top: 10%;
 }
 
@@ -37,26 +37,26 @@ li {
   border-radius: 1px;
   box-shadow: 1px 1px 1px 1px #d3b969;
   margin: 11px;
-  padding: 27px 10px;
-  width: 33%;
+  padding: 25px 30px 32px;
+  width: 30%;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
   align-items: center;
   cursor: pointer;
-  height: 80%;
+  height: 90%;
   flex-grow: 1;
 }
 
 h1 {
   color: #02995b;
-  margin-bottom: 50px;
-  font-size: 50px;
+  margin-bottom: 70px;
+  font-size: 62px;
   font-weight: bold;
 }
 
 .cup {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   position: relative;
   justify-content: center;
   padding-left: 23px;
@@ -65,13 +65,14 @@ h1 {
 .smoke {
   position: absolute;
   top: -50%;
-  left: 36%;
+  left: 32%;
 }
 
 h2 {
   color: #333333;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 48px;
+  font-weight: normal;
 }
 
 .text {
@@ -79,11 +80,12 @@ h2 {
   color: #858585;
   margin-left: 23%;
   margin-right: 23%;
+  font-size: 24px;
 }
 
 .bean {
   position: absolute;
-  top: 15%;
+  top: 17%;
   left: 40%;
 }
 
