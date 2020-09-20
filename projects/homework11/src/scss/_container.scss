@@ -12,7 +12,38 @@
     padding: 24px;
     padding-left: 21px;
   }
-  &__logo {
+  &__logo-wrapper {
     margin-bottom: 10px;
   }
+  &__col-left {
+    padding-top: 40px;
+    padding-left: 15px;
+    width: 60%;
+    display: inline-block;
+  }
+  &__main-foto-wrapper {
+    margin-bottom: 50px;
+  }
+  &__col-right {
+    width: 35%;
+    float: right;
+  }
+}
+
+h1 {
+  font-size: $title-size;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 67px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
