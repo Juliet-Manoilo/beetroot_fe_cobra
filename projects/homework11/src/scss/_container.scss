@@ -1,0 +1,18 @@
+.container {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  &__card {
+    height: 391px;
+    width: 686px;
+    background-color: $background-color;
+    padding: 24px;
+    padding-left: 21px;
+  }
+  &__logo {
+    margin-bottom: 10px;
+  }
+}
