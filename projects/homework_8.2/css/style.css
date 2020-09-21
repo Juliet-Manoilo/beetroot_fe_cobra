@@ -18,8 +18,9 @@ body {
 }
 
 section {
-  max-width: 75%;
-  margin-left: 12.5%;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 95px;
   text-align: center;
 }
@@ -34,7 +35,8 @@ li {
   display: inline-block;
   list-style: none;
   font-family: "hans kendrick", sans-serif;
-  width: 30%;
+
+  max-width: 360px;
   height: 540px;
   margin: 5px;
   color: black;
@@ -45,7 +47,7 @@ li {
 }
 
 li:nth-child(1) {
-  width: 63.5%;
+  min-width: 740px;
   color: white;
   background-image: linear-gradient(
       to bottom,
@@ -73,7 +75,7 @@ p {
 
 h2 {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 21px;
   margin-right: 26px;
   margin-bottom: 49px;
 }
@@ -137,14 +139,14 @@ span {
   align-items: center;
 }
 
-.first-p:hover {
-  color: #545046;
+.for-hover:hover {
+  background-image: url(../assets/Layer8.png);
 }
 
-.first-h2:hover {
+.for-hover:hover .first-h2 {
   color: #1d1d1d;
 }
 
-.for-hover:hover {
-  background-image: url(../assets/Layer8.png);
+.for-hover:hover .first-p {
+  color: #545046;
 }
