@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 0.2s ease;
 }
 
 html,
@@ -39,7 +40,7 @@ h1::after {
 }
 
 .desc {
-  font-style: 16px;
+  font-size: 16px;
   color: #868686;
   width: 569px;
   margin: 0 auto 58px auto;
