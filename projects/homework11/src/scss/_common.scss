@@ -16,3 +16,31 @@ body {
   font-size: $text-size;
   font-weight: 100;
 }
+
+h1 {
+  font-size: $title-size;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 67px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+i {
+  float: left;
+  cursor: pointer;
+}
+
+svg {
+  border: 1px solid $text-color;
+  border-radius: 50%;
+}
