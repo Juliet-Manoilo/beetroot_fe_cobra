@@ -28,14 +28,53 @@ h2 {
 
 ul {
   list-style: none;
-  display: flex;
-  width: 67px;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-i {
+.fa-star {
   float: left;
   cursor: pointer;
+  &:hover {
+    color: $star-color;
+  }
+}
+
+fieldset {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+select {
+  cursor: pointer;
+  color: $text-color;
+  padding: 7px 20px 7px 7px;
+  margin-right: 1px;
+  width: 60px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: url("../img/button.png") no-repeat 90% 50%;
+  background-size: 10px;
+  outline: 0;
+}
+
+option {
+  background-color: $background-color;
+}
+
+input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+label:hover {
+  opacity: 0.6;
 }

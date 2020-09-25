@@ -36,12 +36,46 @@
     margin-left: 0;
     margin-bottom: 15px;
   }
+  &__dropdown-size {
+    position: relative;
+
+    margin-bottom: 29px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  &__list-rating-star {
+    display: flex;
+    width: 67px;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  &__size-button {
+    cursor: pointer;
+    background-color: $background-color;
+  }
+  &__btn {
+    display: block;
+    appearance: none;
+    width: 180px;
+    height: 40px;
+    border: 1px solid $text-color;
+    background-color: $background-color;
+    color: $text-color;
+    cursor: pointer;
+    margin-bottom: 40px;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  &__list-color-choosing {
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    transform: translateX(-360%);
+  }
 }
 
 .container:hover {
   opacity: 1;
-}
-
-i:hover {
-  color: $star-color;
 }
