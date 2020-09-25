@@ -72,9 +72,58 @@ input {
 
 label {
   cursor: pointer;
-  border: 2px solid transparent;
 }
 
-label:hover {
-  opacity: 0.6;
+li {
+  position: relative;
 }
+
+.container__radio-color__blue {
+  position: absolute;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: #29e3ea;
+}
+
+.container__radio-color__red {
+  position: absolute;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: #ed3333;
+  margin-right: 10px;
+}
+
+.container__radio-color__white {
+  position: absolute;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+
+.container__radio-color__navy {
+  position: absolute;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: #1f273f;
+  margin-right: 10px;
+}
+
+span:hover {
+  scale: 1.1;
+  border: 2px solid $text-color;
+}
+
+
