@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Manoilo-homework</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/fav/favicon.ico"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="container">
+        <form class="form-sign" method="get" action="#">
+          <ul class="form-sign__enter-choosing">
+            <li class="form-sign__sign-in">
+              <a href="#sign" class="form-sign__link-sign">Sign in</a>
+            </li>
+            <li class="form-sign__join-in">
+              <a href="#join" class="form-sign__link-join">Join us</a>
+            </li>
+          </ul>
+          <div class="form-sign__main-content" id="sign">
+            <div class="form-sign__username">
+              <label for="Username">Username</label>
+              <input
+                type="text"
+                class="form-sign__input-username"
+                name="Username"
+                id="Username"
+                minlength="6"
+              />
+              <p class="form-sign__error">error</p>
+            </div>
+            <div class="form-sign__password">
+              <label for="Password">Password</label>
+              <input
+                required
+                type="password"
+                class="form-sign__input-password"
+                name="Password"
+                id="Password"
+                minlength="8"
+              />
+              <p class="form-sign__error">error</p>
+            </div>
+            <div class="form-sign__checkbox">
+              <input
+                checked
+                type="checkbox"
+                class="form-sign__input-keep"
+                name="keep"
+                id="keep"
+              />
+              <label for="keep">Keep me signed in</label>
+            </div>
+            <div class="form-sign__button">
+              <button type="submit">Sign in</button>
+            </div>
+            <div class="form-sign__links-additional">
+              <a href="#" class="form-sign__btn-forgot-pw">Forgot password</a>
+              <a href="#join" class="form-sign__btn-creating-acc">
+                Create an account</a
+              >
+            </div>
+          </div>
+          <div class="form-sign__join-content" id="join">
+            <div class="form-sign__username">
+              <label for="Username">Username</label>
+              <input
+                type="text"
+                class="form-sign__input-username"
+                name="Username"
+                id="Username"
+                minlength="6"
+              />
+              <p class="form-sign__error">error</p>
+            </div>
+            <div class="form-sign__password">
+              <label for="Password">Password</label>
+              <input
+                required
+                type="password"
+                class="form-sign__input-password"
+                name="Password"
+                id="Password"
+                minlength="8"
+              />
+              <p class="form-sign__error">error</p>
+            </div>
+            
+            <div class="form-sign__button">
+              <button type="submit">Sign in</button>
+            </div>
+           
+        </form>
+      </div>
+    </section>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
