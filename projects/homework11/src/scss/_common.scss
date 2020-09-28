@@ -81,8 +81,8 @@ li {
 .container__radio-color__blue {
   position: absolute;
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border: 2px solid transparent;
   border-radius: 50%;
   background-color: #29e3ea;
@@ -91,8 +91,8 @@ li {
 .container__radio-color__red {
   position: absolute;
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border: 2px solid transparent;
   border-radius: 50%;
   background-color: #ed3333;
@@ -102,8 +102,8 @@ li {
 .container__radio-color__white {
   position: absolute;
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border: 2px solid transparent;
   border-radius: 50%;
   background-color: #ffffff;
@@ -113,8 +113,8 @@ li {
 .container__radio-color__navy {
   position: absolute;
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border: 2px solid transparent;
   border-radius: 50%;
   background-color: #1f273f;
@@ -122,8 +122,7 @@ li {
 }
 
 span:hover {
-  scale: 1.1;
+  width: 12px;
+  height: 12px;
   border: 2px solid $text-color;
 }
-
-
