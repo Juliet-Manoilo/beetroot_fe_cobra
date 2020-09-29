@@ -8,6 +8,8 @@
   &__links-additional {
     font-size: 13px;
     font-weight: 400;
+    margin-bottom: 55px;
+    opacity: 0.8;
   }
   &__btn-forgot-pw {
     margin-right: 30px;
@@ -45,7 +47,9 @@
     margin-bottom: 50px;
   }
   &__join-content {
-    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
   }
   &__error {
     font-size: 12px;
@@ -67,7 +71,18 @@
   &__button {
     margin-bottom: 30px;
   }
-  &__links-additional {
-    margin-bottom: 55px;
+  &__btn-forgot-pw {
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px solid $text-color;
+    }
+  }
+  &__btn-creating-acc {
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px solid $text-color;
+    }
   }
 }
