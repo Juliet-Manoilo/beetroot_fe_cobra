@@ -119,9 +119,20 @@ li {
   border-radius: 50%;
   background-color: #1f273f;
   margin-right: 10px;
+  &:active {
+    width: 12px;
+    height: 12px;
+    border: 2px solid $text-color;
+  }
 }
 
 span:hover {
+  width: 12px;
+  height: 12px;
+  border: 2px solid $text-color;
+}
+
+input:checked + span {
   width: 12px;
   height: 12px;
   border: 2px solid $text-color;
