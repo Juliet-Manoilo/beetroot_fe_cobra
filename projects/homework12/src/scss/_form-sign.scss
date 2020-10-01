@@ -5,6 +5,18 @@
   &__sign-in {
     margin-right: 25px;
   }
+  &__link-sign {
+    border-bottom: 2px solid $hover-border-color;
+  }
+  &__link-join {
+    border-bottom: 2px solid transparent;
+    &:hover .form-sign__link-sign {
+      border-bottom: 2px solid transparent;
+    }
+    &:hover {
+      border-bottom: 2px solid $hover-border-color;
+    }
+  }
   &__links-additional {
     font-size: 13px;
     font-weight: 400;
@@ -46,11 +58,7 @@
     font-size: 13px;
     margin-bottom: 50px;
   }
-  &__join-content {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
+
   &__error {
     font-size: 12px;
     color: $hover-border-color;
@@ -65,9 +73,24 @@
   &__password {
     margin-bottom: 20px;
   }
-  &__label-checkbox {
-    display: inline-block;
+  &__text-checkbox {
+    display: flex;
+    align-items: center;
   }
+  &__label-checkbox input + .form-sign__text-checkbox:before {
+    content: "";
+    font-size: 12px;
+    margin-right: 7px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background: $bgc-button-color;
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  &__label-checkbox input:checked + .form-sign__text-checkbox:before {
+    content: "✔";
+  }
+
   &__button {
     margin-bottom: 30px;
   }
