@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 65px;
+  &__logo {
+    margin-right: 31px;
+  }
+  &__text {
+    padding-top: 9px;
+    font-size: $small-size;
+    font-weight: 400;
+  }
+}

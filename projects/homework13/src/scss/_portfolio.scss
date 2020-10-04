@@ -1,0 +1,45 @@
+.portfolio {
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  &__first-child {
+    width: 27%;
+    background-image: url("../img/topworkz.png");
+    background-size: cover;
+    margin-bottom: 5px;
+  }
+  &__second-child {
+    width: 45%;
+    background-image: url("../img/joint.png");
+    background-size: cover;
+  }
+  &__third-child {
+    width: 27%;
+    background-image: url("../img/market.png");
+    background-size: cover;
+  }
+  &__fourth-child {
+    width: 27%;
+    background-image: url("../img/worktop.png");
+    background-size: cover;
+  }
+  &__fifth-child {
+    width: 45%;
+    background-image: url("../img/lable.png");
+    background-size: cover;
+  }
+  &__sixth-child {
+    width: 27%;
+    background-image: url("../img/kyiv.png");
+    background-size: cover;
+  }
+  &__text {
+    color: $white;
+    font-size: $subtitle-size;
+    letter-spacing: 7px;
+    padding-top: 147px;
+
+    float: left;
+    padding-left: 47px;
+  }
+}
