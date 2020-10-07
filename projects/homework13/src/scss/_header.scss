@@ -1,18 +1,22 @@
 .header {
-  padding-left: 25%;
-  padding-right: 25%;
   background-image: url("../img/hero-bg.png");
   background-size: cover;
+  height: 100vh;
   max-height: 100%;
-  min-height: 100%;
   min-width: 100%;
-  padding-top: 12%;
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
   color: $white;
   font-family: "Lato", sans-serif;
+  align-content: center;
+
   &__logo {
-    margin-bottom: 9%;
+    margin-bottom: 7%;
     position: relative;
     display: inline-block;
+
+    align-self: center;
   }
   &__treangle-svg {
     position: absolute;
@@ -40,14 +44,15 @@
   &__description {
     font-size: $header-size;
     font-weight: 400;
-    width: 70%;
+    width: 37%;
     margin: auto;
     letter-spacing: 3px;
     line-height: 29px;
-    margin-bottom: 25%;
+    margin-bottom: 13%;
+    flex-grow: 1;
   }
   &__scrolling {
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     &:hover {
       opacity: 0.5;
     }
