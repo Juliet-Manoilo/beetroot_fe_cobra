@@ -1,0 +1,224 @@
+.main {
+  margin: 0 15% 50px;
+  height: 60%;
+  position: relative;
+
+  &__left-col {
+    display: inline-block;
+    height: 500px;
+    width: 50%;
+    position: relative;
+
+    &:before,
+    &:after,
+    &:first-child:before,
+    &:first-child:after {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-color: $yellow;
+      border-style: solid;
+      content: " ";
+      bottom: 0;
+    }
+  }
+  &__right-col {
+    display: inline-block;
+    padding-left: 30px;
+    width: 50%;
+    border-left: 1px solid $yellow;
+    height: 90%;
+    position: absolute;
+    top: -10%;
+    padding-top: 60px;
+    text-align: center;
+  }
+  &__left-btn {
+    width: 20px;
+    appearance: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    background-color: white;
+    font-size: 20px;
+    color: $yellow;
+    margin-right: 20px;
+  }
+  &__left-cursor {
+    display: inline-block;
+    cursor: pointer;
+  }
+  &__userpic-wrapper {
+    display: inline-block;
+    padding: 15px 15px 15px 60px;
+    width: 470px;
+    height: 450px;
+
+    position: relative;
+    &:before,
+    &:after,
+    &:first-child:before,
+    &:first-child:after {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-color: $yellow;
+      border-style: solid;
+      content: " ";
+    }
+  }
+  &__userpic {
+    border: 1px solid $yellow;
+  }
+  &__name {
+    font-family: $title-font;
+    font-size: $subtitle-size;
+    color: $title-color;
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100px;
+      border-bottom: 1px solid $yellow;
+      bottom: 0;
+      left: 40%;
+    }
+  }
+  &__description {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: $big-size;
+    color: $title-color;
+    margin-bottom: 30px;
+  }
+  &__text {
+    width: 430px;
+    text-align: center;
+    font-family: $main-font;
+    font-weight: 500;
+    color: $text-color;
+    font-size: $small-size;
+    margin: auto;
+    line-height: 24px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 50px;
+      border-bottom: 4px dashed $yellow;
+      bottom: 0;
+      left: 45%;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 28px;
+      border-bottom: 4px solid $yellow;
+      bottom: 0;
+      left: 47.5%;
+    }
+  }
+  &__social-btn {
+    appearance: none;
+    border: 1px solid $yellow;
+    background: none;
+    width: 120px;
+    height: 24px;
+    color: $title-color;
+    font-family: $button-font;
+    font-size: $small-size;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+      background-color: $yellow;
+    }
+  }
+  &__right-btn {
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    font-size: 20px;
+    color: $yellow;
+    margin-left: 20px;
+    right: 0;
+  }
+  &__radio {
+    position: absolute;
+    left: 48%;
+
+    width: 50px;
+  }
+  &__radio-item {
+    position: relative;
+    border: none;
+    &:hover {
+      border: none;
+    }
+  }
+  &__radio-color {
+    position: absolute;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: $yellow;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.main__userpic-wrapper:before {
+  margin-left: 40px;
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+}
+.main__userpic-wrapper:after {
+  top: 0;
+  right: 0;
+  border-width: 1px 1px 0 0;
+}
+.main__userpic-wrapper > :first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 4px 4px 0;
+}
+.main__userpic-wrapper > :first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 4px 4px;
+}
+
+.main__left-col:before {
+  top: 68%;
+  left: 6%;
+  border-width: 0 0 1px 1px;
+}
+
+.main__left-col:after {
+  top: 68%;
+  right: 30%;
+  border-width: 0 1px 1px 0;
+}
+.main__left-col > :first-child:before {
+  bottom: 65%;
+  right: 20%;
+  border-width: 0 0 0 1px;
+}
+.main__left-col > :first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 0 1px;
+}

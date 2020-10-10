@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+i {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: $icon-color;
+  font-size: $small-size;
+  display: inline-block;
+}
+
+li {
+  margin: 3px;
+  border: 2px solid $icon-color;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  &:hover {
+    border: 2px solid $yellow;
+  }
+  &:hover a {
+    color: $yellow;
+  }
+}
+
+input {
+  display: none;
+}
+
+input:checked + span {
+  background-color: white;
+  border: 1px solid $yellow;
+  border-radius: 50%;
+}
