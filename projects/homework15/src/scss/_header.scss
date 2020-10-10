@@ -1,0 +1,11 @@
+.header {
+  min-height: 100%;
+  background-image: url("../img/header-bgc.png");
+  background-size: cover;
+  padding: 3% 5%;
+  color: $black;
+  &__logo {
+    font-family: $logo-font;
+    font-size: $logo-size;
+  }
+}
