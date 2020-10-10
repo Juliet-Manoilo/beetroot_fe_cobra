@@ -8,11 +8,10 @@
     height: 500px;
     width: 50%;
     position: relative;
+    margin-bottom: 30px;
 
     &:before,
-    &:after,
-    &:first-child:before,
-    &:first-child:after {
+    &:after {
       position: absolute;
       width: 80px;
       height: 80px;
@@ -53,15 +52,14 @@
   }
   &__userpic-wrapper {
     display: inline-block;
-    padding: 15px 15px 15px 60px;
+    padding: 15px 15px 15px 15px;
     width: 470px;
     height: 450px;
+    left: 9%;
 
     position: relative;
     &:before,
-    &:after,
-    &:first-child:before,
-    &:first-child:after {
+    &:after {
       position: absolute;
       width: 80px;
       height: 80px;
@@ -180,45 +178,25 @@
 }
 
 .main__userpic-wrapper:before {
-  margin-left: 40px;
   top: 0;
   left: 0;
   border-width: 1px 0 0 1px;
 }
 .main__userpic-wrapper:after {
   top: 0;
-  right: 0;
+  left: 72%;
   border-width: 1px 1px 0 0;
-}
-.main__userpic-wrapper > :first-child:before {
-  bottom: 0;
-  right: 0;
-  border-width: 0 4px 4px 0;
-}
-.main__userpic-wrapper > :first-child:after {
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 4px 4px;
 }
 
 .main__left-col:before {
   top: 68%;
-  left: 6%;
+  left: 9%;
   border-width: 0 0 1px 1px;
 }
 
 .main__left-col:after {
+  position: absolute;
   top: 68%;
-  right: 30%;
+  left: 61%;
   border-width: 0 1px 1px 0;
-}
-.main__left-col > :first-child:before {
-  bottom: 65%;
-  right: 20%;
-  border-width: 0 0 0 1px;
-}
-.main__left-col > :first-child:after {
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 0 1px;
 }
