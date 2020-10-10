@@ -1,0 +1,32 @@
+.main {
+  background-color: $green-bgc;
+  padding: 3% 5% 0% 7%;
+  color: $white-text;
+  &__image-wrapper {
+    display: inline-block;
+    width: 60%;
+  }
+  &__text {
+    display: block;
+    width: 34%;
+    float: right;
+    padding-top: 8%;
+    margin-right: 6%;
+  }
+  &__title {
+    font-size: $title-size;
+    font-weight: 700;
+    margin-bottom: 27px;
+  }
+  &__description {
+    font-weight: 300;
+    line-height: 27px;
+    font-size: $text-size;
+  }
+  &__description--first {
+    font-weight: 300;
+    line-height: 27px;
+    font-size: $text-size;
+    margin-bottom: 17px;
+  }
+}

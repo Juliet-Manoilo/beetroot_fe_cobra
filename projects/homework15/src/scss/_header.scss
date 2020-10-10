@@ -1,11 +1,71 @@
 .header {
-  min-height: 100%;
+  max-height: 100%;
   background-image: url("../img/header-bgc.png");
   background-size: cover;
-  padding: 3% 5%;
+  padding: 3% 5% 3% 7%;
   color: $black;
   &__logo {
     font-family: $logo-font;
     font-size: $logo-size;
+    width: 150px;
+    margin-bottom: 250px;
+    display: inline-block;
+  }
+  &__nav {
+    float: right;
+    display: block;
+    width: 40%;
+    padding-top: 25px;
+    font-weight: 700;
+  }
+  &__nav-item {
+    border-top: 2px solid transparent;
+    padding-top: 10px;
+    margin-right: 33px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:first-child {
+      border-top: 2px solid $orange;
+    }
+    &:hover {
+      border-top: 2px solid $orange;
+    }
+  }
+  &__text {
+    width: 30%;
+    margin-bottom: 14%;
+  }
+  &__title {
+    font-size: $subtitle-size;
+    margin-bottom: 28px;
+    font-weight: 900;
+  }
+  &__description {
+    font-size: $text-size;
+    font-weight: 300;
+    margin-bottom: 32px;
+  }
+  &__btn {
+    width: 195px;
+    height: 55px;
+    background-color: $orange;
+    box-shadow: 1px 1px 2px $black;
+    color: $white-text;
+    text-align: center;
+    font-weight: 300;
+    font-size: $button-size;
+    padding-top: 14px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &__scroll {
+    text-align: center;
+    bottom: 0;
+  }
+  &__link:hover {
+    opacity: 0.8;
   }
 }
