@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: $white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+::-webkit-input-placeholder {
+  color: $placeholder-color;
+  font-family: $josefin;
+  letter-spacing: 2px;
+  text-align: center;
+}
+::-moz-placeholder {
+  color: $placeholder-color;
+  font-family: $josefin;
+  letter-spacing: 2px;
+  text-align: center;
+}
+:-moz-placeholder {
+  color: $placeholder-color;
+  font-family: $josefin;
+  letter-spacing: 2px;
+  text-align: center;
+}
+:-ms-input-placeholder {
+  color: $placeholder-color;
+  font-family: $josefin;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+:focus::-moz-placeholder {
+  color: transparent;
+}
+:focus:-moz-placeholder {
+  color: transparent;
+}
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.fa-linkedin-in {
+  color: $main-color;
+}

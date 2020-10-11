@@ -1,0 +1,60 @@
+.choosing {
+  height: 80vh;
+  padding: 7% 10%;
+  font-family: $aleo;
+  color: $white;
+  background-image: url("../img/choosing-bg.png");
+  background-size: cover;
+  &__left-col {
+    width: 45%;
+    display: inline-block;
+    padding-top: 80px;
+    margin-right: 7%;
+  }
+  &__right-col {
+    width: 37%;
+    display: inline-block;
+    position: relative;
+  }
+  &__title {
+    font-size: $H360;
+    font-weight: 400;
+    margin-bottom: 65px;
+  }
+  &__text {
+    font-family: $josefin;
+    font-weight: 400;
+    font-size: $H60;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+  }
+  &__btn {
+    background: rgb(73, 107, 254);
+    background: linear-gradient(
+      87deg,
+      rgba(73, 107, 254, 1) 0%,
+      rgba(84, 116, 253, 0.9229124262091819) 45%
+    );
+    text-transform: uppercase;
+    width: 225px;
+    height: 65px;
+    text-align: center;
+    padding-top: 21px;
+    box-shadow: 1px 1px 2px $black;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &__img-wrapper {
+    display: inline-block;
+    width: 100%;
+  }
+  &__img-wrapper {
+    display: inline-block;
+    width: 100%;
+  }
+  &__img-right {
+    float: right;
+  }
+}

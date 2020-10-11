@@ -1,0 +1,45 @@
+.booking {
+  height: 70vh;
+  background-image: url("../img/book-bg1.png");
+  background-size: cover;
+  padding: 13% 8% 4%;
+  font-family: $josefin;
+  &__block {
+    width: 540px;
+    height: 370px;
+    padding: 40px 30px;
+    background-color: $card-bg;
+    margin-bottom: 50px;
+  }
+  &__name {
+    font-size: $H200;
+    margin-bottom: 22px;
+    font-weight: 400;
+  }
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    font-weight: 400;
+  }
+  &__text {
+    font-size: $H60;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 38px;
+  }
+  &__btn {
+    height: 60px;
+    width: 225px;
+    background-color: $main-color;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-family: $aleo;
+    font-weight: 400;
+    box-shadow: 1px 1px 2px $black;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

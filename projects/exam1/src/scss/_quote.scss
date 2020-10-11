@@ -1,0 +1,42 @@
+.quote {
+  height: 70vh;
+  padding: 5% 12% 10%;
+  background-image: url("../img/quote-bg.png");
+  background-size: cover;
+  font-family: $josefin;
+  &__title {
+    text-align: center;
+    font-family: $aleo;
+    font-size: $H360;
+    margin-bottom: 93px;
+  }
+  &__card {
+    background-color: $card-bg;
+    width: 100%;
+    position: relative;
+  }
+  &__right-col {
+    width: 58%;
+    display: inline-block;
+    top: 10%;
+    position: absolute;
+  }
+  &__left-col {
+    display: inline-block;
+    width: 39%;
+  }
+  &__name {
+    font-weight: 400;
+    font-size: $H200;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: $H60;
+    line-height: 26px;
+    &::before {
+      content: "“";
+      color: $main-color;
+      font-size: $H550;
+    }
+  }
+}
