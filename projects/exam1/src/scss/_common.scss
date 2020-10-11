@@ -57,3 +57,32 @@ a {
 .fa-linkedin-in {
   color: $main-color;
 }
+
+@media screen and (max-width: 1100px) {
+  .header__form {
+    max-width: 300px;
+  }
+  .header__search-input {
+    max-width: 200px;
+  }
+  .header__btn {
+    max-width: 90px;
+  }
+  .header__btn-text {
+    max-width: 50px;
+    padding-left: 1px;
+  }
+  .header__icon-wrapper {
+    display: none;
+  }
+  .header__logo-small {
+    display: none;
+  }
+  .header__nav-item {
+    margin-right: 0;
+    font-size: $H10;
+  }
+  .header__nav {
+    padding: 2px;
+  }
+}
