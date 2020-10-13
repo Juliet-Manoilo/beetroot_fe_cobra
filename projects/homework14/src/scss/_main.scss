@@ -1,6 +1,6 @@
 .main {
-  margin: 0 15% 50px;
-  height: 60%;
+  margin: 0 11% 50px;
+  height: 70%;
   position: relative;
 
   &__left-col {
@@ -9,28 +9,18 @@
     width: 50%;
     position: relative;
     margin-bottom: 30px;
-
-    &:before,
-    &:after {
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      border-color: $yellow;
-      border-style: solid;
-      content: " ";
-      bottom: 0;
-    }
   }
   &__right-col {
     display: inline-block;
     padding-left: 30px;
     width: 50%;
     border-left: 1px solid $yellow;
-    height: 90%;
+    height: 100%;
     position: absolute;
     top: -10%;
     padding-top: 60px;
     text-align: center;
+    padding-bottom: 100px;
   }
   &__left-btn {
     width: 20px;
@@ -68,6 +58,7 @@
       content: " ";
     }
   }
+
   &__userpic {
     border: 1px solid $yellow;
   }
@@ -154,14 +145,15 @@
     right: 0;
   }
   &__radio {
-    position: absolute;
-    left: 48%;
-
-    width: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   &__radio-item {
     position: relative;
     border: none;
+    margin: 0;
+
     &:hover {
       border: none;
     }
@@ -187,16 +179,24 @@
   left: 72%;
   border-width: 1px 1px 0 0;
 }
-
-.main__left-col:before {
-  top: 68%;
-  left: 9%;
-  border-width: 0 0 1px 1px;
-}
-
-.main__left-col:after {
+.main__border:after,
+.main__border:before {
   position: absolute;
-  top: 68%;
-  left: 61%;
-  border-width: 0 1px 1px 0;
+  width: 80px;
+  height: 80px;
+  border-color: $yellow;
+  border-style: solid;
+  content: " ";
+}
+.main__border {
+  &:before {
+    bottom: 7%;
+    left: 0;
+    border-width: 0 0 1px 1px;
+  }
+  &:after {
+    bottom: 7%;
+    right: 11%;
+    border-width: 0 1px 1px 0;
+  }
 }
