@@ -1,0 +1,46 @@
+.gallery {
+  background-color: $yellow-bgc;
+  color: $black;
+
+  &__title {
+    font-size: $title-size;
+    font-weight: 700;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  &__text {
+    font-size: $text-size;
+    font-weight: 300;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  &__item {
+    position: relative;
+
+    width: 66%;
+    &--small {
+      width: 30%;
+    }
+    &--normal {
+      width: 49%;
+    }
+  }
+  &__img {
+    width: 100%;
+    cursor: pointer;
+  }
+  &__img-wrapper {
+    position: relative;
+    &--long {
+      margin-bottom: 10%;
+    }
+  }
+}
