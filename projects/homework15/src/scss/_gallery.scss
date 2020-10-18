@@ -19,12 +19,11 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+    margin-bottom: 50px;
   }
   &__item {
-    position: relative;
-
     width: 66%;
     &--small {
       width: 30%;
@@ -33,14 +32,30 @@
       width: 49%;
     }
   }
-  &__img {
-    width: 100%;
-    cursor: pointer;
-  }
+
   &__img-wrapper {
     position: relative;
     &--long {
       margin-bottom: 10%;
+    }
+  }
+  &__img {
+    width: 100%;
+    cursor: pointer;
+  }
+  &__link {
+    background-color: $navy;
+    color: $white-text;
+    width: 200px;
+    text-align: center;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px $black;
+    margin: auto;
+    &:hover {
+      background-color: $orange;
     }
   }
 }

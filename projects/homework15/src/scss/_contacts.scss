@@ -1,0 +1,59 @@
+.contacts {
+  color: $black;
+  background-image: url("../img/contact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    font-weight: 700;
+    font-size: $title-size;
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  &__text {
+    width: 370px;
+    margin: auto;
+    font-size: $text-size;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  &__left-col {
+    display: inline-block;
+    width: 50%;
+  }
+  &__right-col {
+    display: inline-block;
+    width: 49%;
+  }
+  &__input {
+    display: block;
+    border: none;
+    width: 497px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 2px 8px;
+    border-left: 5px solid transparent;
+    background-color: rgba($color: $form, $alpha: 0.5);
+    &:nth-child(4) {
+      height: 250px;
+    }
+    &:hover {
+      border-left: 5px solid $border-form;
+    }
+    &:checked {
+      border-left: 5px solid $border-form;
+    }
+  }
+  &__btn {
+    width: 497px;
+    appearance: none;
+    height: 50px;
+    background-color: rgba($color: $form, $alpha: 0.5);
+    font-size: $button-size;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: $border-form;
+    }
+  }
+}

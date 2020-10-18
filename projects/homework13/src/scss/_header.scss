@@ -2,14 +2,15 @@
   background-image: url("../img/hero-bg.png");
   background-size: cover;
   max-height: 100vh;
-
+  position: relative;
   min-width: 100%;
   display: flex;
   padding-top: 100px;
   flex-direction: column;
   color: $white;
   font-family: "Lato", sans-serif;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
 
   &__logo {
     margin-bottom: 7%;
@@ -52,7 +53,9 @@
     flex-grow: 1;
   }
   &__scrolling {
-    margin-bottom: 2%;
+    bottom: 2%;
+    position: absolute;
+  
     &:hover {
       opacity: 0.5;
     }

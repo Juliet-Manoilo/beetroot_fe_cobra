@@ -1,0 +1,41 @@
+.subscribe {
+  color: $black;
+  background-image: url("../img/bg-subscribe.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  &__title {
+    font-size: $big-size;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  &__text {
+    width: 550px;
+    font-weight: 300;
+    font-size: $text-size;
+    margin-bottom: 30px;
+  }
+  &__input {
+    width: 550px;
+    height: 55px;
+    padding: 2px 8px;
+    margin-right: 25px;
+  }
+  &__btn {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    width: 170px;
+    height: 55px;
+    background-color: $green-btn;
+    color: $white-text;
+    font-size: $button-size;
+    font-weight: 300;
+    box-shadow: 2px 2px 2px $black;
+    &:hover {
+      background-color: $orange;
+    }
+  }
+  &__form {
+    margin-bottom: 30px;
+  }
+}
