@@ -3,6 +3,7 @@
   background-image: url("../img/contact-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   &__title {
     font-weight: 700;
     font-size: $title-size;
@@ -24,6 +25,8 @@
   &__right-col {
     display: inline-block;
     width: 49%;
+    position: absolute;
+    top: 35%;
   }
   &__input {
     display: block;
@@ -54,6 +57,21 @@
     cursor: pointer;
     &:hover {
       background-color: $border-form;
+    }
+  }
+  &__link {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:hover {
+      color: $orange;
+    }
+  }
+  &__subtitle {
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }

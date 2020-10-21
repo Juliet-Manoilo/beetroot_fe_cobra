@@ -1,0 +1,37 @@
+.footer {
+  background-color: $black;
+  color: $footer-text;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  &__copyright {
+    font-size: $nav-size;
+    display: inline-block;
+    font-weight: 300;
+  }
+  &__logo {
+    font-family: $logo-font;
+    font-size: $logo-small-size;
+    display: inline-block;
+    &:hover {
+      color: $orange;
+    }
+  }
+  &__special {
+    color: $love;
+    font-weight: 700;
+  }
+  &__creator {
+    font-size: $placeholder;
+    font-weight: 300;
+  }
+}
+
+.footer .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 3% 7%;
+}
