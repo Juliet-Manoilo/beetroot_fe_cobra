@@ -35,3 +35,15 @@
   height: 90px;
   padding: 3% 7%;
 }
+@media screen and (max-width: 900px) {
+  .footer .container {
+    flex-direction: column;
+    height: 150px;
+  }
+  .footer__text {
+    margin-bottom: 10px;
+  }
+  .footer__logo-link {
+    margin-bottom: 10px;
+  }
+}

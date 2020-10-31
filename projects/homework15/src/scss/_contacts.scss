@@ -75,3 +75,43 @@
     }
   }
 }
+
+@media screen and (max-width: 1190px) {
+  .contacts__left-col {
+    width: 90%;
+    display: block;
+  }
+  .contacts__right-col {
+    top: 68%;
+    display: block;
+    width: 90%;
+  }
+  .contacts__input {
+    width: 300px;
+    &:nth-child(4) {
+      height: 80px;
+    }
+  }
+  .contacts__btn {
+    width: 300px;
+  }
+  .contacts__title {
+    font-size: $big-size;
+    margin-bottom: 10px;
+  }
+  .contacts__text {
+    margin-bottom: 10px;
+  }
+
+  .contacts {
+    height: 100vh;
+  }
+
+  .contacts__subtitle {
+    font-size: $button-size;
+  }
+
+  .contacts__link {
+    font-weight: 700;
+  }
+}

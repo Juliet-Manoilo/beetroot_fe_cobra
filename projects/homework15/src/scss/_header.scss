@@ -73,3 +73,12 @@
     opacity: 0.8;
   }
 }
+
+@media screen and (max-width: 1367px) {
+  .header__logo {
+    margin-bottom: 50px;
+  }
+  .header__title {
+    font-size: $big-size;
+  }
+}

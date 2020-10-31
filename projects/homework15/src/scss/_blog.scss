@@ -124,3 +124,24 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .blog__text {
+    width: 300px;
+  }
+  .blog__item {
+    width: 80%;
+    margin-bottom: 10px;
+    &--second {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    &--third {
+      width: 80%;
+    }
+  }
+  .blog__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

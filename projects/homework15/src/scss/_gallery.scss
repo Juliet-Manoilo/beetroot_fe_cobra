@@ -16,17 +16,28 @@
     margin-bottom: 40px;
     text-align: center;
   }
+  &__row {
+    height: 710px;
+    margin-bottom: 2%;
+  }
   &__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 50px;
+    height: 100%;
   }
+
   &__item {
     width: 66%;
+    height: 100%;
     &--small {
-      width: 30%;
+      width: 32%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
     }
     &--normal {
       width: 49%;
@@ -35,12 +46,56 @@
 
   &__img-wrapper {
     position: relative;
+    height: 0;
+    box-shadow: 2px 2px 2px $black;
+    padding-bottom: 66.5%;
+    width: 100%;
+    height: 100%;
     &--long {
-      margin-bottom: 10%;
+      position: relative;
+      height: 0;
+      box-shadow: 2px 2px 2px $black;
+      padding-bottom: 50%;
+      width: 100%;
+      height: 48%;
+    }
+    &--fourth {
+      position: relative;
+      height: 0;
+      box-shadow: 2px 2px 2px $black;
+      padding-bottom: 66.8%;
+      width: 100%;
+      height: 100%;
+    }
+    &--fifth {
+      position: relative;
+      height: 0;
+      box-shadow: 2px 2px 2px $black;
+      padding-bottom: 66.8%;
+      width: 100%;
+      height: 100%;
     }
   }
+
   &__img {
+    position: absolute;
     width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  &__imgx {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    object-fit: cover;
     cursor: pointer;
   }
   &__link {
@@ -57,5 +112,11 @@
     &:hover {
       background-color: $orange;
     }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .gallery__text {
+    width: 300px;
   }
 }
