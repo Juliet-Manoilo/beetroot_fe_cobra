@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Title</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/fav/favicon.ico"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__nav-row">
+        <div class="header__logo-wrapper">
+          <a href="#">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+        </div>
+        <nav class="header__nav">
+          <a href="#" class="header__nav-item">HOME</a>
+          <a href="#product" class="header__nav-item">PRODUCT</a>
+          <a href="#promo" class="header__nav-item">PROMO</a>
+          <a href="about" class="header__nav-item">ABOUT</a>
+          <a href="contact" class="header__nav-item">CONTACT</a>
+        </nav>
+        <button class="header__search">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="30px"
+            height="30px"
+          >
+            <path
+              fill-rule="evenodd"
+              fill="rgb(255, 255, 255)"
+              d="M20.900,17.801 C24.573,12.716 23.345,5.675 18.158,2.075 C12.971,-1.526 5.789,-0.322 2.116,4.764 C-1.556,9.849 -0.328,16.889 4.859,20.489 C8.562,23.060 13.456,23.258 17.361,20.997 L25.846,29.265 C26.762,30.210 28.286,30.248 29.250,29.350 C30.215,28.453 30.253,26.958 29.338,26.013 C29.309,25.983 29.281,25.955 29.250,25.927 L20.900,17.801 ZM11.501,18.573 C7.402,18.573 4.079,15.318 4.077,11.300 C4.076,7.281 7.396,4.023 11.496,4.021 C15.589,4.020 18.911,7.270 18.919,11.283 C18.926,15.302 15.607,18.565 11.506,18.573 C11.505,18.573 11.504,18.573 11.501,18.573 Z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="header__content">
+        <h2 class="header__title">delicious sushi</h2>
+        <p class="header__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <a href="#" class="header__order-link">Order now</a>
+      </div>
+    </header>
+    <main>
+      <section class="dishes" id="product">
+        <h2 class="dishes__title">Best seller</h2>
+        <p class="dishes__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <img class="dishes__left-img" src="./img/nori.png" alt="nori" />
+        <ul class="dishes__menu">
+          <li class="dishes__item">
+            <img class="dishes__img--first" src="./img/dish1.png" alt="sushi" />
+            <h3 class="dishes__subtitle">Title Here</h3>
+            <p class="dishes__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </li>
+          <li class="dishes__item">
+            <img class="dishes__img" src="./img/dish2.png" alt="sushi" />
+            <h3 class="dishes__subtitle">Title Here</h3>
+            <p class="dishes__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </li>
+          <li class="dishes__item">
+            <img class="dishes__img" src="./img/dish3.png" alt="sushi" />
+            <h3 class="dishes__subtitle">Title Here</h3>
+            <p class="dishes__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </li>
+        </ul>
+        <img class="dishes__right-img" src="./img/sushi.png" alt="nori" />
+      </section>
+      <section class="order" id="promo"></section>
+      <section class="statistics" id="about"></section>
+      <section class="product"></section>
+      <section class="quote"></section>
+      <section class="subscribe"></section>
+    </main>
+    <footer class="footer" id="contact"></footer>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.dishes {
+  background-color: $pink;
+  color: $white;
+  position: relative;
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: $sub-title;
+    position: absolute;
+    top: -20%;
+    left: 38%;
+  }
+  &__text {
+    text-align: center;
+    width: 50%;
+    font-size: $small-text-size;
+    margin: auto;
+    font-weight: 400;
+    margin-bottom: 75px;
+  }
+  &__menu {
+    width: 67%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  &__img {
+    margin-bottom: 35px;
+    &--first {
+      margin-bottom: 35px;
+      padding-top: 10px;
+    }
+  }
+  &__subtitle {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  &__description {
+    margin-bottom: 28px;
+    text-align: center;
+  }
+  &__left-img {
+    position: absolute;
+    left: 0;
+    top: 25%;
+  }
+  &__right-img {
+    position: absolute;
+    right: 3%;
+    top: 7%;
+  }
+}
