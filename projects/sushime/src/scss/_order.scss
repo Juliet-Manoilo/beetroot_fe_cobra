@@ -1,0 +1,45 @@
+.order {
+  position: relative;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+  color: $pink;
+  margin: auto;
+  &__content {
+    width: 50%;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: $sub-title;
+    margin-bottom: 55px;
+  }
+  &__text {
+    font-size: $small-text-size;
+    font-weight: 400;
+    margin-bottom: 62px;
+  }
+  &__order-link {
+    background-color: $pink;
+    color: $white;
+    width: 327px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $pink;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: $small-text-size;
+  }
+  &__wave {
+    position: absolute;
+    bottom: -25%;
+    left: -13%;
+  }
+  &__img-wrapper {
+  }
+}
