@@ -1,0 +1,53 @@
+.statistics {
+  background-color: $pink;
+  text-align: center;
+  width: 100%;
+  color: $white;
+  padding: 5% 0%;
+  position: relative;
+  &__title {
+    font-weight: 700;
+    font-size: $sub-title;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+  }
+  &__description {
+    font-size: $small-text-size;
+    width: 45%;
+    margin: auto;
+    font-weight: 400;
+    margin-bottom: 90px;
+  }
+  &__score {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: $stat-text;
+  }
+  &__score-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 275px;
+    border: 2px solid $white;
+    border-radius: 50%;
+  }
+  &__score-number {
+    font-size: $header-size;
+  }
+  &__left-img {
+    position: absolute;
+    left: 6%;
+    top: 25%;
+  }
+  &__right-img {
+    position: absolute;
+    right: 9%;
+    top: 12%;
+  }
+}

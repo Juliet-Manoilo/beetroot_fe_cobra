@@ -18,6 +18,7 @@
     align-items: center;
     width: 100%;
     background-color: rgba(255, 127, 127, 0.6);
+    z-index: 200;
   }
   &__nav {
     display: inline-block;

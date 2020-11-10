@@ -1,0 +1,13 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  background-image: url("../img/quote-bgc.png"),
+    url("../img/quote-bgc-layer2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: $white;
+}

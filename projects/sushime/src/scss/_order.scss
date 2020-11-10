@@ -1,12 +1,17 @@
 .order {
   position: relative;
   display: flex;
-  width: 80%;
+  width: 100%;
+  padding: 0 10%;
   justify-content: space-around;
-  height: 80vh;
+  height: 85vh;
   align-items: center;
   color: $pink;
   margin: auto;
+  background-image: url("../img/wave.png");
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
   &__content {
     width: 50%;
   }
@@ -34,12 +39,5 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: $small-text-size;
-  }
-  &__wave {
-    position: absolute;
-    bottom: -25%;
-    left: -13%;
-  }
-  &__img-wrapper {
   }
 }
