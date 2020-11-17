@@ -4,10 +4,24 @@
   justify-content: center;
   align-items: center;
   background-color: brown;
-  background-image: url("../img/quote-bgc.png"),
-    url("../img/quote-bgc-layer2.png");
+  background-image: linear-gradient(rgba(255, 127, 127, 0.6)),
+    url("../img/quote-bgc.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   color: $white;
+  z-index: 100;
+  &__text {
+    width: 50%;
+    font-size: $big-text-size;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__userpic {
+    margin-bottom: 42px;
+  }
+  &__author {
+    font-weight: 700;
+    font-size: $middle-title;
+  }
 }

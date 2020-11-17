@@ -1,0 +1,76 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/subscribe-bg.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 30% 60%;
+  background-size: cover;
+  color: $pink;
+  position: relative;
+  &__title {
+    font-weight: 700;
+    font-size: $sub-title;
+    margin-bottom: 55px;
+  }
+  &__text {
+    font-size: $text-size;
+    margin-bottom: 88px;
+    width: 55%;
+    text-align: center;
+  }
+  &__form {
+    width: 50%;
+    text-align: center;
+    position: relative;
+  }
+  &__input {
+    width: 70%;
+    outline: none;
+    border: none;
+    background-color: $input-bgc;
+    height: 65px;
+    border: 1px solid $input-bgc;
+    border-radius: 50px;
+    padding-left: 35px;
+    padding-top: 7px;
+  }
+  &__btn {
+    appearance: none;
+    border: none;
+    background-color: $pink;
+    color: $white;
+    width: 25%;
+    border: 1px solid $pink;
+    border-radius: 50px;
+    position: absolute;
+    height: 65px;
+    font-size: $small-text-size;
+    font-weight: 700;
+    right: 5%;
+  }
+  &__left-img {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+  }
+  &__right-img {
+    position: absolute;
+    top: 3%;
+    right: 13%;
+  }
+  &__bottom-img {
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+  }
+}
+
+::-webkit-input-placeholder {
+  padding-left: 20px;
+  font-size: $small-text-size;
+  font-family: $main-font;
+}

@@ -1,0 +1,44 @@
+.footer {
+  height: 75vh;
+  background-color: $footer-bgc;
+  position: relative;
+  color: $white;
+  width: 100%;
+
+  &__img {
+    position: absolute;
+    right: 18%;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+  }
+  &__social-column {
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  &__about-column {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__services-column {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__other-column {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: $footer-title;
+  }
+}

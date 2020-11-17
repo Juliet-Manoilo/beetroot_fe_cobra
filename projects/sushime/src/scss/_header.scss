@@ -31,6 +31,15 @@
     &:last-child {
       margin-right: 0;
     }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &__logo-wrapper:hover {
+    opacity: 0.8;
+  }
+  &__search-icon:hover {
+    opacity: 0.8;
   }
   &__search {
     appearance: none;
@@ -71,5 +80,8 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: $small-text-size;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
