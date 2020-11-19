@@ -39,5 +39,8 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: $small-text-size;
+    &:hover {
+      opacity: 0.9;
+    }
   }
 }
